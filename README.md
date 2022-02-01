@@ -1,5 +1,6 @@
 # OpenGL-Starter
 Visual Studio using GLFW 64-bit Windows Binaries - Empty project displaying a triangle - static linking
+
 VSCode using GLFW 64-bit OSX  Universal Binaries - Empty project displaying a triangle - static linking
 [GLFW](https://www.glfw.org/ "An OpenGL library | GLFW")
 
