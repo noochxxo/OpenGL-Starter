@@ -12,3 +12,4 @@ My plan is to have different starter setups to choose from.
 
 #### TODO:
 - Add GLAD to the windows setup
+- Think of other things to add
