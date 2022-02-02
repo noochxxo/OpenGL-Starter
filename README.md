@@ -1,7 +1,9 @@
 # OpenGL-Starter
-Visual Studio using GLFW 64-bit Windows Binaries - Empty project displaying a triangle - static linking
+### Windows
+Visual Studio using GLFW 64-bit - Empty project displaying a triangle - static linking
 
-VSCode using GLFW 64-bit OSX  Universal Binaries - Empty project displaying a triangle - static linking
+### OSX
+VSCode using GLFW 64-bit Universal and GLAD - Empty project displaying a triangle - static linking
 
 
 [GLFW](https://www.glfw.org/ "An OpenGL library | GLFW")
@@ -9,7 +11,4 @@ VSCode using GLFW 64-bit OSX  Universal Binaries - Empty project displaying a tr
 My plan is to have different starter setups to choose from. 
 
 #### TODO:
-- Create different setups for Visual Studio
-- Create setups for mac
-- include 32-bit binaries
-- Create dynamic link setups
+- Add GLAD to the windows setup
