@@ -13,4 +13,4 @@ My plan is to have different starter setups to choose from.
 
 #### TODO:
 - Add OpenGL Mathematics Library
-- Think of other things to add
+- remove the 3rd party dependency and create a script to automatically download them into the folders 
