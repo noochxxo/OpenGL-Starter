@@ -2,6 +2,8 @@
 
 A cross-platform OpenGL starter project with platform-specific CMake configurations. All platforms will share a common set of dependencies (GLFW, GLAD, GLM) stored in the `dependencies/` folder.
 
+This is aimed for beginners who want a quick start and not have to deal with too much setup.
+
 ## Platform Support
 
 ### ✅ Linux (Ubuntu)
