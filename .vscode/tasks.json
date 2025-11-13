@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Linux",
+            "type": "shell",
+            "command": "cd linux && mkdir -p build && cd build && cmake .. && make",
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "Build the Linux OpenGL project"
+        },
+        {
+            "label": "Run Linux",
+            "type": "shell",
+            "command": "cd linux/build && ./OpenGLStarter",
+            "group": "none",
+            "problemMatcher": [],
+            "detail": "Run the Linux OpenGL executable"
+        },
+        {
+            "label": "Build Windows",
+            "type": "shell",
+            "command": "cd windows && if not exist build mkdir build && cd build && cmake -G \"MinGW Makefiles\" .. && mingw32-make",
+            "windows": {
+                "command": "cd windows && if not exist build mkdir build && cd build && cmake -G \"MinGW Makefiles\" .. && mingw32-make"
+            },
+            "group": "build",
+            "problemMatcher": ["$gcc"],
+            "detail": "Build the Windows OpenGL project"
+        },
+        {
+            "label": "Run Windows",
+            "type": "shell",
+            "command": "cd windows/build && .\\OpenGLStarter.exe",
+            "windows": {
+                "command": "cd windows/build && .\\OpenGLStarter.exe"
+            },
+            "group": "none",
+            "problemMatcher": [],
+            "detail": "Run the Windows OpenGL executable"
+        }
+    ]
+}
