@@ -11,12 +11,12 @@ This is aimed for beginners who want a quick start and not have to deal with too
 - **OpenGL Loader**: GLAD (OpenGL 4.1 Core)
 - **Status**: ✅ Complete - includes rotating square example
 
-### ⏳ Windows
+### ⏳ Windows - Needs to be tested
 - **Build System**: CMake (to be configured)
 - **OpenGL Loader**: GLAD (OpenGL 4.1 Core)
 - **Status**: Pending - will be updated to use shared dependencies and CMake
 
-### ⏳ macOS
+### ⏳ macOS - Needs to be tested
 - **Build System**: CMake (to be configured)
 - **OpenGL Loader**: GLAD (OpenGL 4.1 Core)
 - **Status**: Pending - will be updated to use shared dependencies and CMake
